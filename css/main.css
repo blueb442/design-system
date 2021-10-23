@@ -1,0 +1,99 @@
+/** 
+
+Created with love & tears,
+https://github.com/blueb442
+
+**/
+
+
+/* Light Theme Variables */
+
+:root {
+    --bg-primary: #000;
+    --bg-secondary: ;
+    --bg-secondary-alt: ;
+    --bg-tertiary: ;
+    --bg-accent: ;
+    --text-header: ;
+    --text-main: ;
+
+    --accent: ;
+
+    --red: ;
+    --orange: ;
+    --yellow: ;
+    --green: ;
+    --blue: ;
+    --purple: ;
+
+    --font-display: Commissioner, Helvetica, Arial, sans;
+    --font-primary: Source Sans Pro, Helvetica, Arial, sans;
+    --font-primary: Fira Code, Consolas, code;
+}
+
+/* Display Font */
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Primary Font */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+/* Code Font */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+@import url("alert.css");
+@import url("badge.css");
+@import url("button.css");
+@import url("card.css");
+@import url("directory.css");
+@import url("list.css");
+@import url("modal.css");
+@import url("nav.css");
+@import url("placeholder.css");
+@import url("progress.css");
+@import url("tag.css");
+
+/** Headers & Text **/
+/* - headers */
+
+h1 {
+    font-family: var(--font-display)!important;
+}
+
+h2 {
+    font-family: var(--font-display)!important;
+}
+
+h3 {
+    font-family: var(--font-display)!important;
+}
+
+h4 {
+    font-family: var(--font-display)!important;
+}
+
+h5 {
+    font-family: var(--font-display)!important;
+}
+
+h6 {
+    font-family: var(--font-display)!important;
+}
+
+/* - text */
+
+p {
+    font-family: var(--font-primary);
+}
+
+a {
+    font-family: var(--font-primary);
+}
+
+span {
+    font-family: var(--font-primary);
+}
+
+.txt {
+    font-family: var(--font-primary);
+}
+
